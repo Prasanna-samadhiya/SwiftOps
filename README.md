@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SwiftOps
+A full-stack DevOps Automation Tool built with Next.js that helps users create and manage CI/CD pipelines effortlessly using GitHub's Octokit API. The platform provides a modern dashboard for managing workflows, monitoring activities, and handling DevOps integrations—all from a single, user-friendly interface.
 
-## Getting Started
+# Features
+⚙️ CI/CD Pipeline Automation via GitHub (Octokit)
 
-First, run the development server:
+🧠 Smart Workflow Management Dashboard
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔧 DevOps Integration Support (Jenkins, Prometheus, etc.)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📊 Real-Time Activity Feed with Recent Logs
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔐 Secure Authentication & Authorization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🌐 Built with Next.js, TypeScript, Redux, and Tailwind CSS
 
-## Learn More
+☁️ MongoDB for Data Persistence
 
-To learn more about Next.js, take a look at the following resources:
+# How it Works
+🔐 User signs up and logs in to the platform.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔗 Connects GitHub repository using Octokit.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+⚙️ Creates CI/CD pipelines with automated YAML file generation.
 
-## Deploy on Vercel
+🧩 Views and manages workflows through a clean dashboard.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🔍 Tracks activity logs like build triggers, workflow runs, etc.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Contributing
+We welcome contributions! Feel free to fork this repo and submit a pull request.
+
+1.Fork the project
+
+2.Create your feature branch
+
+3.Commit your changes
+
+4.Push to the branch
+
+5.Open a PR
+
+# Project Members
+
+Prasanna Samadhya
+
+Rachit Vijaywargiya 
+
+Divyansh Dawar       
